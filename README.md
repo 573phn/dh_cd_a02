@@ -31,3 +31,6 @@ Each poem in the corpus has been pre-processed and has had linguistic features a
 |parts-of-speech|POS-tags of the text|
 |author|The name of the poem's author|
 |linecount|The number of lines in the poem, as retrieved from the PoetryDB API|
+
+#### Known issues
+The Jupyter Notebook file requires Python 3.13 or older, as Pydantic V1 (which seems to be used by SpaCy) is incompatible with Python 3.14. 
