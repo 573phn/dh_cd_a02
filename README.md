@@ -25,7 +25,7 @@ Each poem in the corpus has been pre-processed and has had linguistic features a
 |filename|The name of the file in which the poem is stored|
 |title|The title of the poem|
 |document|The content of the document, which is identical to how the poem is stored in the `data` directory|
-|text|A pre-processed version of the text, in which underscores (`_`) have been removed and spaces have been added around double dashes (`--`) to aid with the tokenization|
+|text|A pre-processed version of the text, in which underscores (`_`) have been removed and double hyphens (`--`) have been replaced by an em dash with a space on both sides (` — `) to aid with the tokenization|
 |tokens|A tokenized version of the text|
 |lemmas|A lemmatized version of the text|
 |parts-of-speech|POS-tags of the text|
